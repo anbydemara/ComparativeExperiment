@@ -54,4 +54,9 @@ datasets
 │   └── paviaU_7gt.mat
 └── Indiana
 ```
-   
+Houston:
+python train.py --data_path ./datasets/Houston/ --source_name Houston13 --target_name Houston18 --seed 233 --training_sample_ratio 0.8 --re_ratio 5 --flip_augmentation --radiation_augmentation
+
+Pavia: 
+python train.py --data_path ./datasets/Pavia/ --source_name paviaU --target_name paviaC --seed 233 --training_sample_ratio 0.5 --re_ratio 1 
+

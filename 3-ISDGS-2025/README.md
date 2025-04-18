@@ -33,16 +33,16 @@ torch 1.11.0
 
 Environment：
 -------------------
-Houston: python train.py --data_path ./Houston/ --source_name Houston13 --target_name Houston18 --gpu 3 --re_ratio 5 --lambda_1 0.1 --lambda_2 100 --flip_augmentation --radiation_augmentation
+Houston: python train.py --data_path ./Houston/ --source_name Houston13 --target_name Houston18 --gpu 3 --re_ratio 5 --lambda_1 0.1 --lambda_2 100  --training_sample_ratio 0.8 --flip_augmentation --radiation_augmentation
 
 And set the code ```hrand < 5, wrand < 5``` in the dicriminator.py
 
-Pavia: python train.py --data_path ./Pavia/ --source_name paviaU --target_name paviaC --re_ratio 1 --lambda_1 1.0 --lambda_2 1.0
+Pavia: python train.py --data_path ./Pavia/ --source_name paviaU --target_name paviaC --re_ratio 1 --lambda_1 1.0 --lambda_2 1.0 --training_sample_ratio 0.5
 
 And set the code ```hrand < 10, wrand < 10``` in the dicriminator.py
 
 
-HyRANK: python train.py --data_path ./HyRANK/ --source_name Dioni --target_name Loukia --re_ratio 1 --lambda_1 0.1 --lambda_2 10
+HyRANK: python train.py --data_path ./HyRANK/ --source_name Dioni --target_name Loukia --re_ratio 1 --lambda_1 0.1 --lambda_2 10  --training_sample_ratio 0.8
 
 And set the code ```hrand < 10, wrand < 10``` in the dicriminator.py
 
