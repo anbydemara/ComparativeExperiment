@@ -26,7 +26,7 @@ parser.add_argument('--save_path', type=str, default='./results/')
 #                     help='the name of the source dir')
 # parser.add_argument('--target_name', type=str, default='ZYYC',
 #                     help='the name of the test dir')
-parser.add_argument('--data_path', type=str, default='./Pavia/')
+parser.add_argument('--data_path', type=str, default='./PaviaU/')
 parser.add_argument('--source_name', type=str, default='paviaU',
                     help='the name of the source dir')
 parser.add_argument('--target_name', type=str, default='paviaC',

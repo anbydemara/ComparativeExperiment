@@ -55,7 +55,7 @@ datasets
 │   ├── Houston13_7gt.mat
 │   ├── Houston18.mat
 │   └── Houston18_7gt.mat
-└── Pavia
+└── PaviaU
     ├── paviaC.mat
     └── paviaC_7gt.mat
     ├── paviaU.mat

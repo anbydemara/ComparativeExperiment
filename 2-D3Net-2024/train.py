@@ -17,7 +17,7 @@ from datetime import datetime
 parser = argparse.ArgumentParser(description='PyTorch D3net')
 parser.add_argument('--save_path', type=str, default='./Results')
 
-parser.add_argument('--data_path', type=str, default='./datasets/Pavia/')
+parser.add_argument('--data_path', type=str, default='./datasets/PaviaU/')
 parser.add_argument('--source_name', type=str, default='paviaU')
 parser.add_argument('--target_name', type=str, default='paviaC')
 
